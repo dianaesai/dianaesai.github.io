@@ -5,23 +5,103 @@ output:
     toc: true
     toc_float: true
 ---
+309 W 57th St Apt 602 NY, NY 10019 
+
+des2190@cumc.columbia.edu
+
+305-632-7844
 
 # Education
 
-## Columbia University, Mailman School of Public Health (Expected May 2021)
-### Master of Public Health (MPH), Epidemiology with a Health Communication Certificate							
+### Columbia University, Mailman School of Public Health (Expected May 2021)
+*Master of Public Health (MPH), Epidemiology with a Health Communication Certificate*						
 * Relevant coursework: Research Methods and Applications Qualitative and Quantitative Foundations, Public Health Interventions Program Planning and Evaluation, Health Economics, Analysis of Categorical Data, Application of Epidemiological Research Methods, Design and Conduct of Observational Epidemiological Studies
 
-## The University of Florida (May 2019)
-### Bachelor of Science in Behavioral and Cognitive Neuroscience on a Pre-Med Track
+### The University of Florida (May 2019)
+*Bachelor of Science in Behavioral and Cognitive Neuroscience on a Pre-Med Track*
+
 * Relevant coursework: Statistics I, Statistics II, Lab Methods in Psychology, 
 
-## University of Connecticut/Universidad de Salamanca (May-July 2018)
-### Study Abroad
-* Salamanca, Spain
+### University of Connecticut/Universidad de Salamanca (May-July 2018)
+*Study Abroad*
 
+* Salamanca, Spain
 
 # Research Experience
 
+### University of Michigan School of Medicine Office of Health, Equity, and Inclusion
+
+*Michigan Health Sciences Undergraduate Research Fellow (May-August 2019)*
+
+* Chosen for a highly competitive summer research fellowship designed to develop the AAMC core competencies in a stimulating and collaborative environment.
+* Granted 10 week experience to conduct and exhibit research on sex-differences in the acquisition of Pavlovian conditioned approach and fear conditioning in rats. This involved collaborating with a research team, handling rats, creating research schedules, and analyzing data on acquired behaviors.
+* Produced research materials and exhibited research at a University of Michigan symposium attended by faculty, staff and students at the end of the program, including poster and PowerPoint presentation.
+* Participated in leadership and professional development seminars, as well as gained insight and understanding of health disparities.
+
+### Dr. Fedele’s Pediatric Behavioral Health Lab
+*Research Assistant (October 2016-May 2019)*
+
+* Investigated adaptive mobile health intervention for adolescents with persistent asthma through the use of a programmed mobile app.
+* Recruited and interviewed participants for multiple studies within a clinical setting. 
+* Transcribed patient home interviews designed to gather background information on family and asthma history.
+* Logged data for ongoing studies, including coding verbal recordings and gathering background data. ‬‬‬
+
+### Memorial Regional Hospital
+*Shadow, Research Assistant (May 2014-May 2019)*
+
+* Observed the Medical Trauma Team and medical students in order to gain valuable insight into the medical field through clinical, surgical, and emergency settings.
+* Helped gather background data and author a case report.
+* Gathered and organized data through a prospective chart review for a multi-center geriatric traumatic brain injury research data base, in collaboration with the American Association for the Surgery of Trauma (AAST).
+
+### GOMOMS for XX National Congress of Gynecology and Obstetric 
+*Course Instructor (September 2018)*
+
+* ‪Helped in carrying out and organizing presentations in Spanish on topics such as shoulder dystocia, preeclampsia, and simulation training for physicians in low-resource settings for Global Outreach- Mobile Obstetrics Medical Simulation and Gynecologic Surgery (GOMOMS).‬ ‬‬‬‬‬‬‬‬‬‬‬‬‬‬
+* Presented for the country’s residential program, as well as the national OB/GYN Congress.
+
+### GOMOMS for XX National Congress of Gynecology and Obstetrics
+*Course Instructor (May 2018)*
+
+* ‪Helped in carrying out and organizing presentations in Spanish on topics such as shoulder dystocia, preeclampsia, and simulation training for physicians in low-resource settings for Global Outreach- Mobile Obstetrics Medical Simulation and Gynecologic Surgery (GOMOMS).‬ ‬‬‬‬‬‬‬‬‬‬‬‬‬‬
+* Presented for the country’s residential program, as well as the national OB/GYN Congress.
+
+### OB/GYN Visitor Rotation at Stanford Hospital
+*Visiting Observer, Research Assistant (May-June 2018)*
+
+* ‪Directly observed the OB/GYN and maternal fetal medicine team in a variety of settings including their Perinatal Diagnostic Center, OR, and clinical settings.‬ ‬‬‬‬‬‬‬‬‬‬‬‬
+* Assisted the OB/GYN research team in translating IRB documents for current research projects.
+* Created, designed, and translated research pamphlets for recruitment of obstetric research project participants.
+* Gathered data for a gender disparity study and collaborated on such journal article.
+
+### Dr. Joyce Bono’s Leadership Lab        					                   	
+*Research Assistant (May-September 2016)*
+
+* Helped code recordings and rate mock interview videos, as well as researched verbal and nonverbal techniques people use to try to influence each other in social interactions.
+
 # Work Experience
+### Shatterproof
+*Program Coordinator Intern (September 2020-Current)*
+
+* Worked under Assistant Director of State Engagement to create and refine lists of in-scope treatment facilities in ATLAS Phase 2 states.
+* Managed ATLAS@shatterproof,org email and fielded requests for contact information changes from ATLAS providers and ATLAS stakeholders. 
+* Worked under Program Manager to read and review patient experience survey responses, including those flagged as outside of the ATLAS Terms of Service.
+* Tracked and analyzed data on flagging, reasons for flagging, types of content flagged, and other items of interest.
+* Reviewed and performed quantitative and qualitative analyses on patient experience survey response data.
+* Managed static content on the ATLAS website, including frequently asked questions and general content.
+* Drafted presentations, business plans, policy briefs, position papers, and documents for internal use and publication.
+
+### Shatterproof
+*Data Management and Support Intern (June -August 2020)*
+
+* Merged and manually deduplicated facility spreadsheets and worked within Salesforce to document changes.
+* Managed ATLAS@shatterproof,org email and requests from facility providers during the Provider Preview Period.
+* Developed multiple protocols, including for read and review of patient experience responses.
+* Reviewed and performed quantitative and qualitative analyses on patient experience survey response data.
+
+### UF HUB Computing Help Desk
+*Account Specialist, Consultant, and Application Support Center Consultant (March 2016-May 2019)*
+
+* Contributed technical support to a community of 25,000+ students and managed clients and their issues both over the phone and in person.
+* Provided customer service for inbound and outbound calls, answered questions and provided basic trouble shooting assistance for general technology issues and programs offered by the university.
+* Reviewed theses and dissertations of masters and doctoral students to fit the criteria and guidelines of the university and sat one-on-one with said students to work through revisions.
 
