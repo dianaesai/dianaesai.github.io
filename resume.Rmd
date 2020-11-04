@@ -1,11 +1,27 @@
 ---
-title: "Professional and Academic Experience"
+title: "Diana E. Sanchez"
 output: 
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
-# This is Jeff's awesome website
+# Education
+
+## Columbia University, Mailman School of Public Health (Expected May 2021)
+### Master of Public Health (MPH), Epidemiology with a Health Communication Certificate							
+* Relevant coursework: Research Methods and Applications Qualitative and Quantitative Foundations, Public Health Interventions Program Planning and Evaluation, Health Economics, Analysis of Categorical Data, Application of Epidemiological Research Methods, Design and Conduct of Observational Epidemiological Studies
+
+## The University of Florida (May 2019)
+### Bachelor of Science in Behavioral and Cognitive Neuroscience on a Pre-Med Track
+* Relevant coursework: Statistics I, Statistics II, Lab Methods in Psychology, 
+
+## University of Connecticut/Universidad de Salamanca (May-July 2018)
+### Study Abroad
+* Salamanca, Spain
+
+
+# Research Experience
+
+# Work Experience
 
