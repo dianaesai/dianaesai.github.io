@@ -1,0 +1,19 @@
+---
+title: "Diana Sanchez's Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# This is Jeff's awesome website
+
+![](images/DES.JPEG)
+
+[Resume](resume.html)
+
+##Links
+* [Github](https://github.com/dianaesai)
+* [Email](des2190@cumc.columbia.edu)
+* [LinkedIn](https://www.linkedin.com/in/desanchez10)
