@@ -27,7 +27,8 @@ temp1 =
   pivot_longer(
       tmax:tmin,
   		names_to = "type",
-  		values_to = "temp")
+  		values_to = "temp") %>%
+  mutate(temp = temp/10)
 
 ```
 

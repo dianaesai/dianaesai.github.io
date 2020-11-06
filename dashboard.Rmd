@@ -25,7 +25,8 @@ temp1 =
   pivot_longer(
       tmax:tmin,
   		names_to = "type",
-  		values_to = "temp")
+  		values_to = "temp") %>%
+  mutate(temp = temp/10)
 
 temp2 = 
   ny_noaa %>%
@@ -51,35 +52,37 @@ temp3 =
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Max and Min Temperatures in 2000 for Station USC00300023
 
 ```{r}
 temp1 %>%
-  plot_ly(x = ~date, y = ~temp, color = ~type, type = "scatter")
+  plot_ly(x = ~date, y = ~temp, color = ~type, type = "scatter") %>% 
+  layout(xaxis = list(title = "Year",
+                      zeroline = FALSE),
+         yaxis = list(title = "Temperature (C)",
+                      zeroline = FALSE))
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### # of Days of Precipitation in 2000 for Station USC00300023
 
 ```{r}
 temp2 %>%
   plot_ly(x = ~month, y = ~n, type = "bar",color = "rgba(255, 0, 0, 0.6)") %>% 
-  layout(title = "# of Days of Precipitation in 2000 for Station USC00300023",
-         xaxis = list(title = "Month",
+  layout(xaxis = list(title = "Month",
                       zeroline = FALSE),
          yaxis = list(title = "Number of Days it Rained",
                       zeroline = FALSE))
 ```
 
-### Chart C
+### Precipitation by Month for the Year 2000
 
 ```{r}
 temp3 %>%
   plot_ly(x = ~month, y = ~prcp, type = "box", color = "rgba(255, 0, 0, 0.6)") %>% 
-  layout(title = "Precipitation by Month for the Year 2000",
-         xaxis = list(title = "Month",
+  layout(xaxis = list(title = "Month",
                       zeroline = FALSE),
          yaxis = list(title = "Precipitation (mm)",
                       zeroline = FALSE))

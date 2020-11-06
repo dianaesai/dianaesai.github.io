@@ -14,3 +14,6 @@ Also, check out my [Resume](resume.html) !
 
 <img src="images/DES.JPEG" style="width:40%">
 
+### Meet my cat, Emilia!
+
+<img src="images/emilia.jpg" style="width:40%">
