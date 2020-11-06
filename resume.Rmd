@@ -2,16 +2,19 @@
 title: "Diana E. Sanchez"
 output: 
   html_document:
-    toc: true
-    toc_float: true
+    toc: false
+    toc_float: false
 ---
+
+# Contact Information {.tabset}
+
 309 W 57th St Apt 602 NY, NY 10019 
 
 des2190@cumc.columbia.edu
 
 305-632-7844
 
-# Education
+## Education
 
 ### Columbia University, Mailman School of Public Health (Expected May 2021)
 *Master of Public Health (MPH), Epidemiology with a Health Communication Certificate*						
@@ -27,7 +30,7 @@ des2190@cumc.columbia.edu
 
 * Salamanca, Spain
 
-# Research Experience
+## Research Experience
 
 ### University of Michigan School of Medicine Office of Health, Equity, and Inclusion
 
@@ -78,7 +81,7 @@ des2190@cumc.columbia.edu
 
 * Helped code recordings and rate mock interview videos, as well as researched verbal and nonverbal techniques people use to try to influence each other in social interactions.
 
-# Work Experience
+## Work Experience
 ### Shatterproof
 *Program Coordinator Intern (September 2020-Current)*
 

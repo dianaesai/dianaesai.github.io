@@ -5,12 +5,15 @@ navbar:
   right:
     - text: "Resume"
       href: resume.html
+    - text: "HW Problem 2"
+      href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<des2190@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: https://github.com/dianaesai/
-    - text: "LinkedIn"
+    - icon: fab fa-linkedin
       href: https://www.linkedin.com/in/desanchez10
+
 output:
   html_document:
-    theme: cerulean
+    theme: journal

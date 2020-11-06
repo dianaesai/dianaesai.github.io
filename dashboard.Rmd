@@ -1,0 +1,87 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+
+data("ny_noaa")
+
+temp1 =
+  ny_noaa %>%
+  select(tmax, tmin, date, id) %>%
+  mutate(tmax = as.integer(tmax),
+         tmin = as.integer(tmin)) %>% 
+  filter(id == "USC00300023") %>%
+  drop_na(tmax, tmin) %>%
+  pivot_longer(
+      tmax:tmin,
+  		names_to = "type",
+  		values_to = "temp")
+
+temp2 = 
+  ny_noaa %>%
+  mutate(year = lubridate::year(date), 
+                month = lubridate::month(date), 
+                day = lubridate::day(date)) %>%
+  select(month, year, day, prcp, id) %>%
+  filter(prcp > 0, year == "2000", id == "USC00300023") %>%
+  drop_na(month, day, prcp, id) %>%
+  count(month)
+
+temp3 = 
+  ny_noaa %>%
+  mutate(year = lubridate::year(date), 
+                month = lubridate::month(date), 
+                day = lubridate::day(date)) %>%
+  select(month, year, day, prcp, id) %>%
+  filter(year == "2000") %>%
+  drop_na(month, day, prcp, id)
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+temp1 %>%
+  plot_ly(x = ~date, y = ~temp, color = ~type, type = "scatter")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+temp2 %>%
+  plot_ly(x = ~month, y = ~n, type = "bar",color = "rgba(255, 0, 0, 0.6)") %>% 
+  layout(title = "# of Days of Precipitation in 2000 for Station USC00300023",
+         xaxis = list(title = "Month",
+                      zeroline = FALSE),
+         yaxis = list(title = "Number of Days it Rained",
+                      zeroline = FALSE))
+```
+
+### Chart C
+
+```{r}
+temp3 %>%
+  plot_ly(x = ~month, y = ~prcp, type = "box", color = "rgba(255, 0, 0, 0.6)") %>% 
+  layout(title = "Precipitation by Month for the Year 2000",
+         xaxis = list(title = "Month",
+                      zeroline = FALSE),
+         yaxis = list(title = "Precipitation (mm)",
+                      zeroline = FALSE))
+```
+
